@@ -128,7 +128,10 @@
             // Check if local storage is supported
             if (storageService.isSupported()) {
                 if (!storageService.getObject('accounts')) {
-                    addAccount('alice@google.com', 'JBSWY3DPEHPK3PXP');
+                    addAccount('Alice alice@gmail.com', 'WYNYPBASAYYFJGCL');
+					addAccount('Bob bob@gmail.com', 'NPAVHWHGSYVQTJEA');
+					addAccount('Carol carol@gmail.com', 'UNGWNBWLQFMVQLJY');
+					addAccount('Dennis dennis@gmail.com', 'HCGLJWTHRUDUBYTS');
                 }
 
                 updateKeys();
@@ -191,16 +194,6 @@
                 accountList.append(accElem);
             });
             accountList.listview().listview('refresh');
-        };
-
-        var toggleEdit = function() {
-            editingEnabled = !editingEnabled;
-            if(editingEnabled) {
-                $('#addButton').show();
-            } else {
-                $('#addButton').hide();
-            }
-            updateKeys();
         };
 
         var exportAccounts = function() {
