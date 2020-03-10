@@ -6,3 +6,5 @@ This was created to be embedded as a tab inside of Microsoft Teams, and allow ma
 For bonus points, host it using Azure websites, and use conditional access policies to restrict access to employees logged in with AzureAD accounts.
 
 https://solutionsotplab.azurewebsites.net/
+
+![alt text](https://github.com/chrisaudet/chrisaudet.github.io/raw/master/images/Annotation%202020-03-09%20213928.jpg "SolutionsOTP Screenshot")
